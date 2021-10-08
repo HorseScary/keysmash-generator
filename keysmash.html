@@ -8,6 +8,25 @@
         <!--Content-->
         <h1>KeySmash Generator</h1>
         <hr>
+        <p style="color:red;">This website does not currently do anything! Since I can't use php in github pages I have to figure out some monkey buisness to make this work.</p>
+        <form method="get">
+            <label for="letters">Charecters:</label><br />
+            <input type="text" id="letters" name="letters" /><br />
+            <label for="letterspre">Charecters Preset</label>
+            <select id="letterspre">
+                <option value="alphabet">Alphabetical</option> 
+                <option value="alphanumeric">Alphanumerical</option>
+                <option value="everything">Everything</option>
+            </select><br />
+            <label for="length">Length:</label><br />
+            <input type="text" id="length" name="letters" /><br />
+            <label for="case">Case:</label><br />
+            <label for="case">Upper-Case</label>
+            <input type="radio" id="upper" name="case"> <br />
+            <label for="case">Lower-Case</label>
+            <input type="radio" id="lower" name="case"> <br />
+            <input type="submit" value="Generate Keysmash" name="submit">
+        </form>
         <!--Content Ends-->
     </body>
 </html>
