@@ -10,17 +10,11 @@
         <h1>KeySmash Generator</h1>
         <hr>
         <p style="color:red;">This website does not currently do anything! Since I can't use php in github pages I have to do some monkey buisness to make this work.</p>
-        <form method="get">
+        <form method="post" action="smashphp.php">
             <label for="letters">Characters:</label><br />
             <input type="text" id="letters" name="letters" /><br />
-            <label for="letterspre">Characters Preset</label>
-            <select id="letterspre">
-                <option value="alphabet">Alphabetical</option> 
-                <option value="alphanumeric">Alphanumerical</option>
-                <option value="everything">Everything</option>
-            </select><br />
-            <label for="length">Length:</label><br />
-            <input type="text" id="length" name="letters" /><br />
+	        <label for="length">Length:</label><br />
+            <input type="text" id="length" name="length" /><br />
             <label for="case">Case:</label><br />
             <label for="case">Upper-Case</label>
             <input type="radio" id="upper" name="case"> <br />
