@@ -16,5 +16,6 @@ function smash() {
     }
 
     document.write(smash)
+
 //    document.write(letters + "<br>" + length + "<br>" + smashCase)
 }
