@@ -12,10 +12,12 @@ function smash() {
 
     var letterLength = smashLetters.length;
     for (i=0; i<parseInt(smashLength); i++) {
-        smash += smashLetters.charAt(getRandomIntInclusive(0, letterLength))
+        smash += smashLetters.charAt(getRandomIntInclusive(0, letterLength));
     }
 
-    document.write(smash)
-
-//    document.write(letters + "<br>" + length + "<br>" + smashCase)
+    if (smashCase == "upper"){
+        document.getElementById('result').innerHTML = smash.toUpperCase();
+    } else {
+        document.getElementById('result').innerHTML = smash.toLowerCase()
+    }
 }
