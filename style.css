@@ -1,7 +1,6 @@
 body {
-    margin: 3vw;
-    padding: 3vw;
-    border: solid 1px #1d3f7c;
+    margin: 2.5vw;
+    padding: 2.5vw;
     background-color: #367af5;
     border-radius: 25px;
 
@@ -10,7 +9,7 @@ body {
 .info > a, .back > a{
     color: #1345a1;
     padding: .3vw;
-    border: 1px solid #367af5;
+    border: 1px solid #5ac5f9;
     border-radius: 5px;
 }
 .info >a:hover, .back > a:hover {
@@ -28,16 +27,22 @@ input, select, textarea {
     background-color: #44bdfa;
 }
 
-.content {
-    padding: 3vw;
-    margin-top: 2.5vw;
-    margin-bottom: 2.5vw;
-
-    border: solid 1px #1d3f7c;
+.content, header {
+    border: solid 1px #5ac5f9;
     border-radius: 25px;
 
     background-color: #5ac5f9;
     color: #12264b;
+}
+
+.content {
+    padding: 3vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+header {
+    padding-bottom: 2vw;
 }
 
 .info, .back {
