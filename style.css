@@ -1,19 +1,22 @@
 body {
     margin: 2.5vw;
     padding: 2.5vw;
-    background-color: #367af5;
+    background-color: #79e4ff;
     border-radius: 25px;
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5vw;
 
 }
 
 a {
     color: #cc16ae;
-    border: 1px solid #5ac5f9;
+    border: 1px solid #58deff;
     border-radius: 5px;
     text-decoration: none;
 }
 a:hover {
-    background-color: #53b1e0;
+    background-color: #43d8fd;
 }
 .back > a, .info > a {
     padding: .3vw;
@@ -25,14 +28,20 @@ h1 {
 }
 
 input, select, textarea {
-    background-color: #44bdfa;
+    background-color: #67e1ff;
+    font-size: 1.5vw;
+
+}
+form {
+    padding-left: 3vw;
+    font-size: 1.5vw;
 }
 
 .content, header {
-    border: solid 1px #5ac5f9;
+    border: solid 1px #58deff;
     border-radius: 25px;
 
-    background-color: #5ac5f9;
+    background-color: #58deff;
     color: #12264b;
 }
 
@@ -54,14 +63,14 @@ footer {
     text-align: center;
 }
 footer a {
-    border: 1px solid #5ac5f9;
+    border: 1px solid #58deff;
     border-radius: 5px;
 
     padding: 0.2vw; 
     margin: 0.2vw;
 
     color: #cc16ae;
-    background-color: #5ac5f9;
+    background-color: #58deff;
 }
 footer a strong {
     font-weight: bold;
@@ -71,14 +80,14 @@ footer a strong {
     border-radius: 5px;
 
     background-color: #cc16ae;
-    color: #5ac5f9;
+    color: #58deff;
 }
 footer a:hover {
-    color: #5ac5f9;
+    color: #58deff;
     background-color: #cc16ae;
 }
 footer a:hover strong {
     color: #cc16ae;
-    background-color: #5ac5f9;
-    border-color: #5ac5f9;
+    background-color: #58deff;
+    border-color: #58deff;
 }
