@@ -6,16 +6,19 @@ body {
 
 }
 
-.info > a, .back > a{
-    color: #1345a1;
-    padding: .3vw;
+a {
+    color: #cc16ae;
     border: 1px solid #5ac5f9;
     border-radius: 5px;
+    text-decoration: none;
 }
-.info >a:hover, .back > a:hover {
+a:hover {
     border: 1px solid #1345a1;
-    background-color: #1345a1;
+    background-color: #cc16ae;
     color: #367af5;
+}
+.back > a, .info > a {
+    padding: .3vw;
 }
 
 h1 {
@@ -52,6 +55,32 @@ header {
 footer {
     text-align: center;
 }
-footer > a {
-    color: #1345a1;
+footer a {
+    border: 1px solid #5ac5f9;
+    border-radius: 5px;
+
+    padding: 0.2vw; 
+    margin: 0.2vw;
+
+    color: #cc16ae;
+    background-color: #5ac5f9;
+}
+footer a strong {
+    font-weight: bold;
+    padding: 0.1vw;
+
+    border: 1px solid #cc16ae;
+    border-radius: 5px;
+
+    background-color: #cc16ae;
+    color: #5ac5f9;
+}
+footer a:hover {
+    color: #5ac5f9;
+    background-color: #cc16ae;
+}
+footer a:hover strong {
+    color: #cc16ae;
+    background-color: #5ac5f9;
+    border-color: #5ac5f9;
 }
