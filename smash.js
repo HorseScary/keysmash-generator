@@ -10,7 +10,7 @@ function smash() {
     var smashCase = document.myform.case.value;
     var smash = '';
 
-    var letterLength = smashLetters.length;
+    var letterLength = smashLetters.length - 1;
     for (i=0; i<parseInt(smashLength); i++) {
         smash += smashLetters.charAt(getRandomIntInclusive(0, letterLength));
     }
@@ -21,3 +21,4 @@ function smash() {
         document.getElementById('result').innerHTML = smash.toLowerCase()
     }
 }
+
