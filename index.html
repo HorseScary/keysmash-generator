@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Keysmash Generator</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <script src="smash.js"></script>
-    </head>
-    <body>
-        <!--Content-->
-        <header>
-            <h1>KeySmash Generator</h1>
-            <div class="info">
-                <a href="info.html">
-                    Info
-                </a>
-            </div>
-        </header>
-        <div class="content">
-            <form name="myform">
-                <label for="letters">Characters:</label><br />
-                <input type="text" id="letters" name="letters" /><br />
-                <label for="length">Length:</label><br />
-                <input type="text" id="length" name="length" /><br />
-                <label>Upper-Case</label>
-                <input type="radio" name="case" value="upper"> <br />
-                <label>Lower-Case</label>
-                <input type="radio" name="case" value="lower"> <br />
-                <input type="button" value="Generate Keysmash" onclick="smash()">
-            </form>
-            <!--Content Ends-->
-            <p id="result"></p>
+
+<head>
+    <title>Keysmash Generator</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(style.css);
+
+        .color {
+            text-align: center;
+        }
+    </style>
+    <script src="smash.js"></script>
+</head>
+
+<body>
+    <!--Content-->
+
+    <header>
+        <h1>KeySmash Generator</h1>
+        <!-- will finish this later
+            <button type="button" class="color">
+                Colorless 
+            </button>
+        -->
+        <div class="info">
+            <a href="info.html">
+                Info
+            </a>
         </div>
-            
-        <footer>
-            <a href="http://validator.w3.org/check?uri=https://horsescary.com/keysmash-generator">
-                <strong> HTML</strong> Valid! </a>
-                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://horsescary.com/keysmash-generator">
-                <strong> CSS</strong> Valid! </a>
-        </footer>
-    </body>
+    </header>
+    <div class="content">
+        <form name="myform">
+            <label for="letters">Characters:</label><br />
+            <input type="text" id="letters" name="letters" /><br />
+            <label for="length">Length:</label><br />
+            <input type="text" id="length" name="length" /><br />
+            <label>Upper-Case</label>
+            <input type="radio" name="case" value="upper"> <br />
+            <label>Lower-Case</label>
+            <input type="radio" name="case" value="lower"> <br />
+            <input type="button" value="Generate Keysmash" onclick="smash()">
+        </form>
+        <!--Content Ends-->
+        <p id="result"></p>
+    </div>
+
+    <footer>
+        <a href="http://validator.w3.org/check?uri=https://horsescary.com/keysmash-generator">
+            <strong> HTML</strong> Valid! </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://horsescary.com/keysmash-generator">
+            <strong> CSS</strong> Valid! </a>
+    </footer>
+</body>
+
 </html>
