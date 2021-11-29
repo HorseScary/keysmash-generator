@@ -22,8 +22,21 @@
             </button>
         -->
         <div class="info">
-            <a href="info.html">Info</a> | Color: 
+            <button onclick="info()" id="displayInfo">Info</button> | Color: 
             <input type="checkbox" onchange="theme()" id="check" checked>
+        </div>
+        <div id="info" style="display: none;">
+            <p>
+                The idea for this website came from <a href="https://peysi.tumblr.com/">Peysi</a> on tumblr. Peysi also helped me with the color scheme! <a
+                    href="https://peysi.tumblr.com/post/664492041058828288/hey-guys-i-just-came-up-with-an-idea-for-someone">(Original
+                    tumblr post)</a>
+            </p>
+            <p>
+                The website was made by <a href="https://www.horsescary.com">Horse</a> and is hosted on github pages.
+            </p>
+            <div class="center">
+                <button onclick="hideInfo()" id="hideInfo">Hide Info</button>
+            </div>
         </div>
 
     </header>

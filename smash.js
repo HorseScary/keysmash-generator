@@ -23,7 +23,10 @@ function smash() {
 }
 
 function info() {
-    document.getElementById('info').innerHTML = "varguba"
+    document.getElementById('info').setAttribute('style', 'display: block;')
+}
+function hideInfo() {
+    document.getElementById('info').setAttribute('style', 'display: none;')
 }
 
 function theme() {

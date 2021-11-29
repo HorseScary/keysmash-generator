@@ -56,6 +56,25 @@ header {
 .info, .back {
     text-align: center;
 }
+#info {
+    padding: 2.5vw;
+}
+#displayInfo, #hideInfo {
+    font-size: 1.5vw;
+    background-color: #58deff;
+    border: #58deff 1px solid;
+    color: #cc16ae;
+    border-radius: 5px;
+}
+#displayInfo:hover, #hideInfo:hover {
+    background-color: #43d8fd;
+}
+#hideInfo {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
 
 footer {
     text-align: center;

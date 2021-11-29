@@ -15,7 +15,6 @@ a {
     text-decoration: none;
 }
 a:hover {
-    border: 1px solid #c7c7c7;
     background-color: #c7c7c7;
 }
 .back > a, .info > a {
@@ -57,7 +56,25 @@ header {
 .info, .back {
     text-align: center;
 }
-
+#info {
+    padding: 2.5vw;
+}
+#displayInfo, #hideInfo {
+    font-size: 1.5vw;
+    background-color: #d6d6d6;
+    border: #d6d6d6 1px solid;
+    color: #0000EE;
+    border-radius: 5px;
+}
+#displayInfo:hover, #hideInfo:hover {
+    background-color: #c7c7c7;
+}
+#hideInfo {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
 footer {
     text-align: center;
 }
