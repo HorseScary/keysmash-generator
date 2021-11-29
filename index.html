@@ -4,13 +4,7 @@
 <head>
     <title>Keysmash Generator</title>
     <meta charset="utf-8">
-    <style>
-        @import url(style.css);
-
-        .color {
-            text-align: center;
-        }
-    </style>
+    <link id="style" rel="stylesheet" href="style.css">
     <script src="smash.js"></script>
     <!--font stuff-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +14,6 @@
 
 <body>
     <!--Content-->
-
     <header>
         <h1>KeySmash Generator</h1>
         <!-- will finish this later
@@ -29,10 +22,10 @@
             </button>
         -->
         <div class="info">
-            <a href="info.html">
-                Info
-            </a>
+            <a href="info.html">Info</a> | Color: 
+            <input type="checkbox" onchange="theme()" id="check" checked>
         </div>
+
     </header>
     <div class="content">
         <form name="myform">

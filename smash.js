@@ -22,3 +22,14 @@ function smash() {
     }
 }
 
+function info() {
+    document.getElementById('info').innerHTML = "varguba"
+}
+
+function theme() {
+    if (document.getElementById('check').checked) {
+        document.getElementById('style').setAttribute('href', 'style.css')
+    } else {
+        document.getElementById('style').setAttribute('href', 'style2.css')
+    }
+}
