@@ -17,7 +17,7 @@ a {
 a:hover {
     background-color: #43d8fd;
 }
-.back > a, .info > a {
+.info > a {
     padding: .3vw;
 }
 
@@ -53,7 +53,7 @@ header {
     padding-bottom: 2vw;
 }
 
-.info, .back {
+.info {
     text-align: center;
 }
 #info {
