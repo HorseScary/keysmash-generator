@@ -1,11 +1,11 @@
 body {
-    margin: 2.5vw;
-    padding: 2.5vw;
+    margin: 2.5rem;
+    padding: 2.5rem;
     background-color: #ffffff;
     border-radius: 25px;
 
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 a {
@@ -18,7 +18,7 @@ a:hover {
     background-color: #c7c7c7;
 }
 .info > a {
-    padding: .3vw;
+    padding: .3rem;
 }
 
 h1 {
@@ -28,11 +28,11 @@ h1 {
 
 input, select, textarea {
     background-color: #d6d6d6;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 
 }
 form {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .content, header {
@@ -44,23 +44,23 @@ form {
 }
 
 .content {
-    padding: 3vw;
-    margin-top: 2.5vw;
-    margin-bottom: 2.5vw;
+    padding: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 header {
-    padding-bottom: 2vw;
+    padding-bottom: 2rem;
 }
 
 .info {
     text-align: center;
 }
 #info {
-    padding: 2.5vw;
+    padding: 2.5rem;
 }
 #displayInfo, #hideInfo {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     background-color: #d6d6d6;
     border: #d6d6d6 1px solid;
     color: #0000EE;
@@ -82,15 +82,15 @@ footer a {
     border: 1px solid #d6d6d6;
     border-radius: 5px;
 
-    padding: 0.2vw; 
-    margin: 0.2vw;
+    padding: 0.2rem; 
+    margin: 0.2rem;
 
     color: #000000;
     background-color: #d6d6d6;
 }
 footer a strong {
     font-weight: bold;
-    padding: 0.1vw;
+    padding: 0.1rem;
 
     border: 1px solid #000000;
     border-radius: 5px;
